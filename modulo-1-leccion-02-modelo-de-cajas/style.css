@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --color-principal: #14d9c4;
+}
+.header .imagen
+{
+width: 120px;
+}
+
+li{
+    display: inline;
+}
+.header .button 
+{
+color:white;
+background-color: var(--color-principal);
+border: none;
+width: 150px;
+height: 30px;
+margin: 10px;
+text-transform: uppercase;
+border-radius: 5px;
+}
+.header .active 
+{
+color: black;
+background-color: white;
+}
+
+.main .welcome {
+    background-image: url("/images/Cabecera-Blog-de-Adalab.png");
+    height: 450px;
+    background-position: center;
+    padding-left: 2€;
+}
+
+.main .title {
+    color: white;
+    font-size: 30px;
+    width: 50€;
+    padding-top: 20%;
+}
+
+.main .button {
+    background-color: var(--color-principal);
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}

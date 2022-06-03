@@ -1,0 +1,50 @@
+* {
+    border: 2px solid violet;
+}
+
+:root {
+    border: 2px solid black;
+}
+
+html {
+    border: 3px solid yellow;
+}
+
+.box1,
+.box2,
+.box3 {
+    
+    margin: 30px;
+    width: 33%;
+}
+
+.box1 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    flex-grow: 3;
+    
+}
+
+.box2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    flex-grow: 6;
+}
+
+.box3 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
